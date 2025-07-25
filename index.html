@@ -1,120 +1,147 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jayden Runs Across Texas</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayden Bishop | Running Across Texas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f7f7f7;
-      color: #222;
+      padding: 0;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
     }
     header {
-      background-color: #ffffff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #fff;
       padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      z-index: 1000;
     }
     header h1 {
       font-size: 1.5rem;
-      margin: 0;
+      font-weight: 700;
+      color: #000;
     }
     nav a {
       margin-left: 1.5rem;
       text-decoration: none;
       color: #333;
       font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ff3c38;
     }
     .hero {
-      background: url('https://runacrosstexas.org/images/header.jpg') no-repeat center center/cover;
-      height: 80vh;
+      margin-top: 80px;
+      height: 100vh;
+      background: url('https://www.buffrunner.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-bg.41f6c509.jpg&w=1920&q=75') center/cover no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: white;
+      color: #fff;
       text-align: center;
       padding: 2rem;
     }
     .hero h2 {
       font-size: 3rem;
-      max-width: 700px;
+      max-width: 800px;
+      background: rgba(0,0,0,0.6);
+      padding: 1rem;
+      border-radius: 10px;
     }
     .section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
+      padding: 6rem 2rem;
+      max-width: 1200px;
       margin: 0 auto;
     }
     .section h3 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
+      color: #000;
+    }
+    .section p {
+      font-size: 1.1rem;
+      color: #444;
     }
     .cta {
-      text-align: center;
       margin-top: 2rem;
     }
     .cta a {
-      background-color: #ff4a4a;
+      background-color: #ff3c38;
       color: white;
       padding: 1rem 2rem;
-      border-radius: 5px;
+      border-radius: 30px;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background-color: #e5322e;
     }
     footer {
-      background-color: #222;
+      background-color: #000;
       color: #fff;
       text-align: center;
-      padding: 2rem;
-      margin-top: 4rem;
+      padding: 3rem 2rem;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Jayden Runs Texas</h1>
+    <h1>Jayden Runs TX</h1>
     <nav>
       <a href="#about">About</a>
-      <a href="#route">Route</a>
+      <a href="#journey">Journey</a>
       <a href="#sponsor">Sponsor</a>
       <a href="#donate">Donate</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h2>I’m Running Across Texas – For Every Kid Who Needs Hope</h2>
+    <h2>Running Across Texas – From El Paso to Orange to Uplift Foster Youth</h2>
   </section>
 
   <section id="about" class="section">
-    <h3>Why I Run</h3>
-    <p>I was in the foster system, adopted at 6, and faced serious struggles growing up. Now at 18, I'm running across Texas in the summer of 2026 to raise money for Jonathan’s Place — a safe haven for kids who need protection and love, just like I did.</p>
+    <h3>About Me</h3>
+    <p>I'm Jayden Bishop. Adopted from foster care at 6, I know what it’s like to feel lost. At 18, I’m turning pain into purpose by running across Texas to raise awareness and funds for Jonathan’s Place, a refuge for kids like me.</p>
   </section>
 
-  <section id="route" class="section">
+  <section id="journey" class="section">
     <h3>The Journey</h3>
-    <p>From El Paso to Orange, TX — over 860 miles on foot. I’ll cross the entire state to show what resilience looks like and prove that your past doesn’t define you.</p>
+    <p>My run begins in El Paso and ends in Orange, covering over 860 miles across Texas. This isn’t just about distance — it’s about resilience, change, and giving back.</p>
   </section>
 
   <section id="sponsor" class="section">
-    <h3>Sponsor Me</h3>
-    <p>Powered by <strong>Ketone IQ</strong>. Use my link to get 30% off: <a href="https://ketone.com/JAYDENBISHOPRUNS" target="_blank">ketone.com/JAYDENBISHOPRUNS</a></p>
+    <h3>Sponsorship</h3>
+    <p>Proudly sponsored by Ketone IQ. Fuel your body and support the mission. <br>
+      👉 <a href="https://ketone.com/JAYDENBISHOPRUNS" target="_blank">Get 30% off with my link</a></p>
   </section>
 
   <section id="donate" class="section">
-    <h3>Support the Cause</h3>
-    <p>Your donation goes directly to Jonathan's Place to help children in need of safety and healing.</p>
+    <h3>Donate</h3>
+    <p>Every donation goes directly to Jonathan’s Place to support children in need. Help me make every mile count.</p>
     <div class="cta">
       <a href="#">Donate Now</a>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Jayden Bishop. All Rights Reserved.</p>
+    <p>© 2025 Jayden Bishop. All rights reserved.</p>
   </footer>
 </body>
 </html>
